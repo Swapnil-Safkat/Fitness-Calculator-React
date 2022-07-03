@@ -4,12 +4,14 @@ import BMI from './Components/BMI';
 import BMR from './Components/BMR';
 import Calorie from './Components/Calorie';
 import IdealWeight from './Components/IdealWeight';
+import NavBar from './Components/NavBar';
 
 function App() {
   return (
-    <div>
+    <div className='w-full min-h-screen'>
+      <NavBar/>
       <Routes>
-        <Route path='/' element={<BMI />}></Route>
+        <Route path='/home' element={<BMI />}></Route>
         <Route path='/bmi' element={<BMI />}></Route>
         <Route path='/bmr' element={<BMR />}></Route>
         <Route path='/ideal-weight' element={<IdealWeight />}></Route>
