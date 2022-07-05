@@ -2,9 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
-  const navLinkClass = 'text-md md:text-lg py-1 px-6 my-3 font-semibold text-gray-600 rounded-lg'
+  const navLinkClass = 'text-md md:text-base py-1 px-4 my-3 font-semibold text-gray-700 rounded-lg'
   return (
-    <div className="navbar flex justify-between flex-row items-center bg-primary shadow-md sticky top-0 z-50 px-4 md:px-20">
+    <div className="navbar flex justify-between flex-row items-center bg-primary shadow-md sticky top-0 z-50 px-4 md:px-44">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex="0" className="btn btn-ghost lg:hidden">
