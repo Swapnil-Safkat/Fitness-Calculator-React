@@ -2,8 +2,8 @@ import React from 'react';
 
 const Calorie = () => {
   return (
-    <div>
-      <h1>calorie</h1>
+    <div className='w-full'>
+      <h1 className='text-4xl font-bold mb-10 text-center'>Calculate Your Calorie</h1>
     </div>
   );
 };
