@@ -122,7 +122,7 @@ const BMR = () => {
             <h1 className='text-center text-2xl font-bold my-4'>Result</h1>
             <hr className='h-1 bg-gray-600 mx-8 rounded-full opacity-20' />
             <div className='w-full h-full p-8'>
-              <h1 className='font-semibold text-lg mb-2'>BMR : <span className='font-bold '>{bmr}</span> calories/day</h1>
+              <h1 className='font-semibold text-lg mb-2'>BMR : <span className='font-bold '>{bmr.toFixed(1)}</span> calories/day</h1>
             </div>
           </div>
         </div>
